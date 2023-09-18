@@ -42,6 +42,5 @@ public class multiply implements State{
     }
     public void numberPressed(int number) {
         setOp(new numPressed(this,number));
-
     }
 }
