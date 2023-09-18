@@ -45,7 +45,6 @@ public class Case implements State {
     public void addPressed() {
         this.num = calc.state.displayNumber();
         setOp(new add(this));
-
     }
 
     public void equalsPressed() {
