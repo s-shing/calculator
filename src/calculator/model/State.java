@@ -7,4 +7,5 @@ public interface State {
     void equalsPressed();
     void decimalPressed();
     double getNum();
+
 }
