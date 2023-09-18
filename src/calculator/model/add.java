@@ -4,7 +4,6 @@ public class add implements State{
     public double num;
     public void setOp(State state){
         this.calc.state =this;
-
         calc.calc.state =state;
     }
     public double getNum(){
