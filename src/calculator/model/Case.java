@@ -13,7 +13,6 @@ public class Case implements State {
     public double getNum(){
         return this.num;
     }
-    // Accessed by View. You should edit this method as you build functionality
     public double displayNumber() {
         return this.num;
     }
