@@ -9,7 +9,6 @@ public class subtract implements State{
 
     public void setOp(State state){
         this.calc.state =this;
-
         calc.calc.state =state;
        }
     private Calculator calculator;
