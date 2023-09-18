@@ -9,7 +9,6 @@ public class numPressed implements State {
     public numPressed(State calc, int number){
         this.calc = calc;
         this.num += number;
-
     }
     public double getNum(){
         return displayNumber();
