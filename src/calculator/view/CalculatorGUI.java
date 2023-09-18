@@ -85,7 +85,6 @@ public class CalculatorGUI extends Application {
         Scene scene = new Scene(grid);
 
         stage.addEventFilter(MouseEvent.MOUSE_CLICKED, new ClickAction(this));
-
         stage.setScene(scene);
         stage.show();
 
