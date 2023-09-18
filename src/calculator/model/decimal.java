@@ -37,7 +37,6 @@ private State state;
 
     }
     public void numberPressed(int number) {
-
         setOp(new numPdec(state,number));
 
     }
