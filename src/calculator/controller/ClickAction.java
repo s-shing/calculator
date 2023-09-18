@@ -8,7 +8,7 @@ public class ClickAction implements EventHandler<MouseEvent> {
 
     private final CalculatorGUI gui;
 
-    public ClickAction(CalculatorGUI calculator){
+    public ClickAction(CalculatorGUI calculator) {
         this.gui = calculator;
     }
 

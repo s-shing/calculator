@@ -8,7 +8,7 @@ public class MultiplicationAction implements EventHandler<ActionEvent> {
 
     private final Calculator calculator;
 
-    public MultiplicationAction(Calculator calculator){
+    public MultiplicationAction(Calculator calculator) {
         this.calculator = calculator;
     }
 

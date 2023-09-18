@@ -8,11 +8,11 @@ import static org.junit.Assert.assertTrue;
 
 public class TestCalculator {
     public void testOh(Calculator tester) {
-        assertEquals(0.0, tester.displayNumber(),.01);
+        assertEquals(0.0, tester.displayNumber(), .01);
     }
 
     public void testNums(Calculator tester, double expected) {
-        assertEquals(expected, tester.displayNumber(),.00001);
+        assertEquals(expected, tester.displayNumber(), .00001);
     }
 
     @Test
@@ -69,7 +69,7 @@ public class TestCalculator {
         tester.decimalPressed();
         tester.numberPressed(7);
         tester.numberPressed(8);
-        testNums(tester,34.78);
+        testNums(tester, 34.78);
 
         tester = new Calculator();
         tester.numberPressed(3);
@@ -81,30 +81,30 @@ public class TestCalculator {
         tester.decimalPressed();
         tester.decimalPressed();
         tester.numberPressed(6);
-        testNums(tester,34.786);
+        testNums(tester, 34.786);
 
         tester = new Calculator();
         tester.decimalPressed();
         tester.numberPressed(7);
-        testNums(tester,0.7);
+        testNums(tester, 0.7);
         tester.addPressed();
         tester.numberPressed(2);
         tester.equalsPressed();
-        testNums(tester,2.7);
+        testNums(tester, 2.7);
         tester.addPressed();
         tester.decimalPressed();
         tester.numberPressed(2);
         tester.equalsPressed();
-        testNums(tester,2.9);
+        testNums(tester, 2.9);
         tester = new Calculator();
         tester.decimalPressed();
         tester.numberPressed(7);
-        testNums(tester,0.7);
+        testNums(tester, 0.7);
         tester.addPressed();
         tester.decimalPressed();
         tester.numberPressed(2);
         tester.equalsPressed();
-        testNums(tester,0.9);
+        testNums(tester, 0.9);
         tester = new Calculator();
         tester.numberPressed(7);
         tester.decimalPressed();
@@ -114,12 +114,7 @@ public class TestCalculator {
         tester.decimalPressed();
         tester.numberPressed(1);
         tester.equalsPressed();
-        testNums(tester,10.8);
-
-
-
-
-
+        testNums(tester, 10.8);
 
 
         tester = new Calculator();
@@ -147,8 +142,6 @@ public class TestCalculator {
 
         tester.clearPressed();
         testNums(tester, 0.0);
-
-
 
 
     }

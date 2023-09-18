@@ -8,9 +8,12 @@ public class Calculator {
     private Case orig = new Case(this);
 
     public State state = this.orig;
-    public void setOp(State state){this.state= state;}
 
-    public Calculator(){
+    public void setOp(State state) {
+        this.state = state;
+    }
+
+    public Calculator() {
         this.num = 0.0;
     }
 
@@ -27,7 +30,7 @@ public class Calculator {
     }
 
     public void dividePressed() {
-       orig.dividePressed();
+        orig.dividePressed();
     }
 
     public void multiplyPressed() {
@@ -43,7 +46,7 @@ public class Calculator {
     }
 
     public void equalsPressed() {
-       this.state.equalsPressed();
+        this.state.equalsPressed();
     }
 
     public void decimalPressed() {

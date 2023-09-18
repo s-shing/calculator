@@ -8,7 +8,7 @@ public class ClearAction implements EventHandler<ActionEvent> {
 
     private final Calculator calculator;
 
-    public ClearAction(Calculator calculator){
+    public ClearAction(Calculator calculator) {
         this.calculator = calculator;
     }
 

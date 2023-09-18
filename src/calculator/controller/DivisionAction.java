@@ -8,7 +8,7 @@ public class DivisionAction implements EventHandler<ActionEvent> {
 
     private final Calculator calculator;
 
-    public DivisionAction(Calculator calculator){
+    public DivisionAction(Calculator calculator) {
         this.calculator = calculator;
     }
 

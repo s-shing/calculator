@@ -8,7 +8,7 @@ public class SubtractionAction implements EventHandler<ActionEvent> {
 
     private final Calculator calculator;
 
-    public SubtractionAction(Calculator calculator){
+    public SubtractionAction(Calculator calculator) {
         this.calculator = calculator;
     }
 

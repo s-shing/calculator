@@ -8,7 +8,7 @@ public class DecimalAction implements EventHandler<ActionEvent> {
 
     private final Calculator calculator;
 
-    public DecimalAction(Calculator calculator){
+    public DecimalAction(Calculator calculator) {
         this.calculator = calculator;
     }
 

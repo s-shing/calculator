@@ -8,7 +8,7 @@ public class EqualAction implements EventHandler<ActionEvent> {
 
     private final Calculator calculator;
 
-    public EqualAction(Calculator calculator){
+    public EqualAction(Calculator calculator) {
         this.calculator = calculator;
     }
 
