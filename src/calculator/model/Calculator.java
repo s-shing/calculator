@@ -14,7 +14,6 @@ public class Calculator {
         this.num = 0.0;
     }
 
-    // Accessed by View. You should edit this method as you build functionality
     public double displayNumber() {
         return this.state.displayNumber();
     }
