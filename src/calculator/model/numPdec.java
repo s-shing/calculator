@@ -10,7 +10,6 @@ public class numPdec implements State {
     public numPdec(State calc, int number) {
         this.calc = calc;
         double temp = parseDouble("0." + number);
-
         temp +=calc.displayNumber();
         this.num = Double.toString(temp);
     }
